@@ -1,0 +1,55 @@
+{
+  "header": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "projects": "Proyek Kami",
+    "blog": "Blog/Artikel",
+    "contact": "Kontak",
+    "language": "ID"
+  },
+  "hero": {
+    "title": "GATEDIGI",
+    "subtitle": "BEYOUND INNOVATION",
+    "description": "Selamat datang di GateDigi, gerbang menuju dunia digital yang lebih cerah! Kami adalah tim visioner yang berkomitmen untuk mengubah cara Anda berinteraksi dengan teknologi. Dengan fokus pada inovasi, kreativitas, dan dampak positif, kami menghadirkan solusi digital yang efektif, inspiratif, dan relevan untuk berbagai sektor.",
+    "contactUs": "Hubungi Kami",
+    "viewServices": "Lihat Layanan"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "description": "GateDigi adalah adalah agensi digital yang berdiri pada 15 November 2024, dengan misi menciptakan inovasi digital yang mendukung berbagai sektor, mulai dari pemberdayaan komunitas hingga pendidikan dan pengembangan UMKM. Kami berkomitmen untuk membangun masa depan yang lebih baik melalui teknologi yang sederhana, efektif, dan berkelanjutan."
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "description": "Menyediakan solusi inovatif untuk memenuhi berbagai kebutuhan, mulai dari pengembangan aplikasi hingga desain kreatif.",
+    "list": {
+      "applicationDevelopment": "Transformasi Digital",
+      "branding&CreativeDesign": "Pemberdayaan Komunitas",
+      "qualityAssurance": "Dukungan UMKM",
+      "in-HouseTraining": "Solusi Pendidikan"
+    }
+  },
+  "projects": {
+    "title": "Proyek Kami",
+    "description": "Lihat bagaimana kami menghadirkan inovasi untuk mendukung berbagai sektor! Berikut adalah beberapa proyek yang telah kami kembangkan."
+  },
+  "blog": {
+    "title": "Artikel Terbaru",
+    "description": "Tetap update dengan pemikiran dan wawasan kami."
+  },
+  "contact": {
+    "title": "Kontak",
+    "description": "Hubungi kami untuk memulai perjalanan transformasi digital Anda atau untuk pertanyaan lebih lanjut.",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "button": "Kirim Pesan"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 GateDigi. Semua Hak Dilindungi.",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Syarat Layanan"
+  }
+}
