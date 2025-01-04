@@ -67,7 +67,7 @@ const handleNavigationClick = (name) => {
   <footer class="bg-black">
     <div class="container">
       <div class="row pt-5">
-        <div class="col-md-12 col-sm-12 d-flex gap-4">
+        <div class="col-md-8 col-sm-12 d-flex gap-4">
           <div class="col-md-6 col-sm-6">
             <h5 class="mb-4 text-white">GATEDIGI - BEYOUND INNOVATION</h5>
             <img
@@ -131,7 +131,7 @@ const handleNavigationClick = (name) => {
           </div>
         </div>
 
-        <div class="col-md-12 col-sm-12 mb-3">
+        <div class="col-md-4 col-sm-12 mb-3">
           <div style="width: 100%">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.845848758657!2d116.07514667446212!3d-8.610794687473392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf001b7e1343%3A0x51a447690e8ac5da!2sGATEDIGI%20-%20Beyond%20Innovation!5e0!3m2!1sen!2sid!4v1735996586788!5m2!1sen!2sid"
@@ -150,7 +150,7 @@ const handleNavigationClick = (name) => {
         class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 mx-md-0 mx-3 border-top"
       >
         <p class="text-white">
-          {{ $t('footer.copyright') }}, {{ $t('footer.privacyPolicy') }}
+          {{ $t('footer.copyright') }} {{ $t('footer.privacyPolicy') }}
           {{ $t('footer.termsOfService') }}
         </p>
       </div>
