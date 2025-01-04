@@ -8,6 +8,10 @@ const router = createRouter({
       path: '/',
       name: 'landing',
       component: LandingPage,
+      meta: {
+        title: 'Home - GateDigi',
+        description: 'Empowering communities with digital transformation.',
+      },
     },
     {
       path: '/blog',
