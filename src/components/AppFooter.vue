@@ -67,8 +67,8 @@ const handleNavigationClick = (name) => {
   <footer class="bg-black">
     <div class="container">
       <div class="row pt-5">
-        <div class="col-lg-8 col-md-8 col-sm-8 d-flex gap-4">
-          <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-md-12 col-sm-12 d-flex gap-4">
+          <div class="col-md-6 col-sm-6">
             <h5 class="mb-4 text-white">GATEDIGI - BEYOUND INNOVATION</h5>
             <img
               src="@/assets/images/brand/logo-only-white.png"
@@ -113,16 +113,16 @@ const handleNavigationClick = (name) => {
               </li>
             </ul>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+          <div class="col-md-6 col-sm-6 mb-3">
             <h5 class="text-white">Link</h5>
-            <ul class="nav flex-column g-0 p-0 m-0">
-              <li v-for="(menu, index) in menus" :key="index" class="nav-item g-0 p-0 m-0">
+            <ul class="nav flex-column p-0">
+              <li v-for="(menu, index) in menus" :key="index" class="nav-item p-0">
                 <a
                   :href="menu.href"
                   @click.prevent="handleNavigationClick(menu.translationKey)"
                   :class="{
-                    'nav-link px-0 py-1 active': active === menu.translationKey,
-                    'nav-link px-0 py-1 ': active !== menu.translationKey,
+                    'nav-link px-0 py-1 text-white fw-bold active': active === menu.translationKey,
+                    'nav-link px-0 py-1 text-white': active !== menu.translationKey,
                   }"
                   >{{ $t(menu.translationKey) }}</a
                 >
@@ -131,23 +131,23 @@ const handleNavigationClick = (name) => {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 mb-3">
+        <div class="col-md-12 col-sm-12 mb-3">
           <div style="width: 100%">
             <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.845848758657!2d116.07514667446212!3d-8.610794687473392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf001b7e1343%3A0x51a447690e8ac5da!2sGATEDIGI%20-%20Beyond%20Innovation!5e0!3m2!1sen!2sid!4v1735996586788!5m2!1sen!2sid"
               width="356"
               height="207"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              src="https://maps.google.com/maps?width=356&amp;height=207&amp;hl=en&amp;q=GATEDIGI%20-%20Beyond%20Innovation+(GATEDIGI%20-%20Beyond%20Innovation)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
       </div>
 
       <div
-        class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 mx-lg-0 mx-3 border-top"
+        class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 mx-md-0 mx-3 border-top"
       >
         <p class="text-white">
           {{ $t('footer.copyright') }}, {{ $t('footer.privacyPolicy') }}

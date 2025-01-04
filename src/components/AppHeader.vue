@@ -97,7 +97,7 @@ const changeLanguage = () => {
               :href="menu.href"
               @click.prevent="handleNavigationClick(menu.translationKey)"
               :class="{
-                'nav-link active': active === menu.translationKey,
+                'nav-link active fw-bold': active === menu.translationKey,
                 'nav-link': active !== menu.translationKey,
               }"
               >{{ $t(menu.translationKey) }}</a
