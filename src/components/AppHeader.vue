@@ -17,7 +17,7 @@ const handleScroll = () => {
 
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect()
-      if (rect.top <= 0 && rect.bottom >= 0 && !found) {
+      if (rect.top <= 20 && rect.bottom >= 50 && !found) {
         const sectionKey = section.dataset.translationKey
         if (active.value !== sectionKey) {
           active.value = sectionKey
@@ -50,12 +50,11 @@ const menus = [
 const handleNavigationClick = (name) => {
   active.value = name
 
-  if (window.location.pathname === '/blog') {
-    if (name === 'header.blog') {
-      window.location.href = '/blog'
-    } else {
-      window.location.href = `/#${name.split('.')[1].toLowerCase()}`
-    }
+  if (name === 'header.blog') {
+    window.location.href = '/blog'
+  } else if (window.location.pathname === '/blog') {
+    const sectionId = name.split('.')[1].toLowerCase()
+    window.location.href = `/#${sectionId}`
   } else {
     const sectionId = name.split('.')[1].toLowerCase()
     const section = document.getElementById(sectionId)

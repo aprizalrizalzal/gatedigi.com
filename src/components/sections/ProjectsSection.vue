@@ -1,6 +1,23 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+
+const filters = ref([
+  { name: '*', label: 'All' },
+  { name: '.web-app', label: 'Web App' },
+  { name: '.mobile-app', label: 'Mobile App' },
+  { name: '.logo-design', label: 'Logo Design' },
+  { name: '.web-design', label: 'Web Design' },
+  { name: '.mobile-design', label: 'Mobile Design' },
+])
+
+const activeFilter = ref('*')
+
+function handleFilterClick(filterName) {
+  activeFilter.value = filterName
+}
+</script>
 <template>
-  <section id="projects" class="bg-black" data-translation-key="header.projects">
+  <section id="projects" data-translation-key="header.projects">
     <div class="container">
       <div class="row">
         <div class="col-12 mt-5 pt-5 text-center text-white">
@@ -13,7 +30,19 @@
             {{ $t('projects.description') }}
           </p>
         </div>
-        <div class="col-12 mb-5 py-3"></div>
+        <div class="col-12 mb-5 py-3">
+          <ul class="nav justify-content-center mb-4">
+            <li v-for="filter in filters" :key="filter.name" class="nav-item">
+              <button
+                class="nav-link"
+                :class="{ active: activeFilter === filter.name }"
+                @click="handleFilterClick(filter.name)"
+              >
+                {{ filter.label }}
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

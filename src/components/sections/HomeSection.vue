@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
-  <section id="home" class="background-gradient" data-translation-key="header.home">
+  <section id="home" data-translation-key="header.home">
     <div class="container">
       <div class="row py-5">
         <div class="col-12 my-5 pt-5 text-center text-white">
-          <div class="mt-5">
+          <div class="mt-3">
             <h1 class="display-1 fw-bold">
               {{ $t('hero.title') }}
             </h1>

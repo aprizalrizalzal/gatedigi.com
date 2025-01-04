@@ -2,7 +2,12 @@
   font-family: 'Clash Grotesk', sans-serif;
 }
 
-.background-gradient {
+.bg-black-blue-gradient {
   background: rgb(0, 0, 0);
   background: linear-gradient(70deg, rgba(0, 0, 0, 1) 10%, rgba(30, 72, 255, 1) 90%);
+}
+
+.bg-blue-black-gradient {
+  background: rgb(30, 72, 255);
+  background: linear-gradient(70deg, rgba(30, 72, 255, 1) 10%, rgba(0, 0, 0, 1) 90%);
 }

@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section id="about" class="bg-black" data-translation-key="header.about">
+  <section id="about" data-translation-key="header.about">
     <div class="container">
       <div class="row">
         <div class="col-12 mt-5 pt-5 text-center text-white">
