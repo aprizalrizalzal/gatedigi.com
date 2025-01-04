@@ -17,17 +17,54 @@
   },
   "about": {
     "title": "Tentang Kami",
-    "description": "GateDigi adalah adalah agensi digital yang berdiri pada 15 November 2024, dengan misi menciptakan inovasi digital yang mendukung berbagai sektor, mulai dari pemberdayaan komunitas hingga pendidikan dan pengembangan UMKM. Kami berkomitmen untuk membangun masa depan yang lebih baik melalui teknologi yang sederhana, efektif, dan berkelanjutan."
+    "description": "GateDigi adalah adalah agensi digital yang berdiri pada 15 November 2024, dengan misi menciptakan inovasi digital yang mendukung berbagai sektor, mulai dari pemberdayaan komunitas hingga pendidikan dan pengembangan UMKM. Kami berkomitmen untuk membangun masa depan yang lebih baik melalui teknologi yang sederhana, efektif, dan berkelanjutan.",
+    "vision": {
+      "title": "Visi",
+      "lists": [
+        {
+          "title": "Teknologi untuk Semua",
+          "description": "Mengembangkan solusi digital yang mudah diakses dan inklusif untuk berbagai kalangan."
+        },
+        {
+          "title": "Inovasi Berkelanjutan",
+          "description": "Berinovasi seiring perkembangan zaman untuk menghadirkan solusi yang relevan."
+        },
+        {
+          "title": "Meningkatkan Efisiensi",
+          "description": "Mendorong produktivitas melalui teknologi yang mendukung kemajuan bisnis dan masyarakat."
+        },
+        {
+          "title": "Pemberdayaan Komunitas",
+          "description": "Memanfaatkan teknologi untuk mempercepat pertumbuhan di sektor pendidikan, UMKM, dan masyarakat luas."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Misi",
+      "description": "Menghadirkan teknologi yang berkelanjutan, inovatif, dan mudah diakses untuk membantu masyarakat dan bisnis mencapai potensi terbaik mereka, serta mempercepat transformasi digital di berbagai sektor."
+    }
   },
   "services": {
-    "title": "Layanan Kami",
+    "title": "Layanan",
     "description": "Menyediakan solusi inovatif untuk memenuhi berbagai kebutuhan, mulai dari pengembangan aplikasi hingga desain kreatif.",
-    "list": {
-      "applicationDevelopment": "Transformasi Digital",
-      "branding&CreativeDesign": "Pemberdayaan Komunitas",
-      "qualityAssurance": "Dukungan UMKM",
-      "in-HouseTraining": "Solusi Pendidikan"
-    }
+    "lists": [
+      {
+        "title": "Application Development",
+        "description": "Menyediakan layanan pengembangan aplikasi untuk platform web dan mobile, dengan keahlian dalam pengembangan frontend dan backend. Solusi kami dirancang untuk meningkatkan produktivitas bisnis, menciptakan pengalaman digital yang menarik bagi pelanggan, dan menyediakan solusi mobile yang efektif untuk kebutuhan lapangan."
+      },
+      {
+        "title": "Branding & Creative Design",
+        "description": "Membantu menciptakan identitas visual yang kuat dengan layanan branding dan desain kreatif, termasuk pembuatan logo dan desain grafis lainnya. Pendekatan inovatif kami membangun citra merek yang menarik, mendukung keberhasilan dan pertumbuhan perusahaan Anda."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Membantu memelihara web atau aplikasi mobile yang dikelola internal dengan audit kode, pengujian otomatis, dan wawasan tambahan. Kami pastikan aplikasi Anda tetap optimal, mendukung pertumbuhan berkelanjutan, dan memberikan dampak positif pada sektor yang Anda jalankan."
+      },
+      {
+        "title": "In-House Training",
+        "description": "Menyediakan pelatihan internal untuk tim Anda dalam mempelajari teknologi baru. Dengan berbagi pengetahuan dan pengalaman, kami membantu tim Anda menguasai teknologi tersebut, mempercepat pengembangan aplikasi, dan mendukung keberlanjutan dalam sektor Anda."
+      }
+    ]
   },
   "projects": {
     "title": "Proyek Kami",

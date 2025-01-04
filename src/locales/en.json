@@ -17,17 +17,54 @@
   },
   "about": {
     "title": "About Us",
-    "description": "GateDigi is a digital agency established on November 15, 2024, with the mission of creating digital innovations that support various sectors, ranging from community empowerment to education and development of MSMEs. We are committed to building a better future through simple, effective, and sustainable technologies."
+    "description": "GateDigi is a digital agency established on November 15, 2024, with the mission of creating digital innovations that support various sectors, ranging from community empowerment to education and development of MSMEs. We are committed to building a better future through simple, effective, and sustainable technologies.",
+    "vision": {
+      "title": "Vision",
+      "lists": [
+        {
+          "title": "Technology for All",
+          "description": "Developing accessible and inclusive digital solutions for a wide range."
+        },
+        {
+          "title": "Sustainable Innovation",
+          "description": "Innovate with the times to present relevant solutions."
+        },
+        {
+          "title": "Incasing Effici",
+          "description": "Encourage productivity through technologies that support the progress of business and society."
+        },
+        {
+          "title": "Community Empowerment",
+          "description": "Utilizing technology to accelerate growth in the education sector, MSMEs, and the wider community."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Presenting technologies that are sustainable, innovative, and accessible to help communities and businesses reach their best potential, as well as accelerate digital transformation across a wide range of sectors."
+    }
   },
   "services": {
     "title": "Services",
     "description": "We provide innovative solutions to meet various needs, from application development to creative design.",
-    "list": {
-      "applicationDevelopment": "Application Development",
-      "branding&CreativeDesign": "Branding & Creative Design",
-      "qualityAssurance": "Quality Assurance",
-      "in-HouseTraining": "In-House Training"
-    }
+    "lists": [
+      {
+        "title": "Application Development",
+        "description": "We provide application development services for both web and mobile platforms, with expertise in frontend and backend development. Our solutions are designed to boost business productivity, create engaging digital experiences for customers, and offer effective mobile solutions for field operations."
+      },
+      {
+        "title": "Branding & Creative Design",
+        "description": "We assist in creating a strong visual identity through branding and creative design services, including logo creation and other graphic designs. Our innovative approach builds a compelling brand image, supporting your company’s success and growth."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "We help maintain web or mobile applications managed internally through code audits, automated testing, and additional insights. We ensure your applications remain optimized, supporting sustainable growth and delivering a positive impact on the sectors you operate in."
+      },
+      {
+        "title": "In-House Training",
+        "description": "We offer in-house training to help your team learn new technologies. By sharing knowledge and experience, we help your team master these technologies, accelerate application development, and support sustainability within your sector."
+      }
+    ]
   },
   "projects": {
     "title": "Our Projects",

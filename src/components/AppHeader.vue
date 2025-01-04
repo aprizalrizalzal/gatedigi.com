@@ -75,12 +75,12 @@ const changeLanguage = () => {
 
 <template>
   <nav class="fixed-top navbar navbar-expand-lg bg-black text-white shadow" data-bs-theme="dark">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="/">
         <img :src="brandImage" alt="GATEDIGI - Beyond Innovation" width="192" />
       </a>
       <button
-        class="navbar-toggler rounded-0"
+        class="navbar-toggler rounded-1"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -106,7 +106,7 @@ const changeLanguage = () => {
           </li>
         </ul>
         <div class="ms-auto p-2">
-          <button class="btn btn-outline-transparent rounded-0" @click="changeLanguage">
+          <button class="btn btn-outline-transparent rounded-1" @click="changeLanguage">
             {{ $t('header.language') }}
           </button>
         </div>

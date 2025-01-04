@@ -1,7 +1,7 @@
 <script setup>
 import AboutSection from '@/components/sections/AboutSection.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
-import HeroSection from '@/components/sections/HeroSection.vue'
+import HomeSection from '@/components/sections/HomeSection.vue'
 import ProjectsSection from '@/components/sections/ProjectsSection.vue'
 import ServicesSection from '@/components/sections/ServicesSection.vue'
 import StatsSection from '@/components/sections/StatsSection.vue'
@@ -9,21 +9,21 @@ import StatsSection from '@/components/sections/StatsSection.vue'
 
 <template>
   <div class="">
-    <HeroSection></HeroSection>
+    <HomeSection></HomeSection>
   </div>
-  <div>
+  <div class="">
     <AboutSection></AboutSection>
   </div>
-  <div>
+  <div class="">
     <ServicesSection></ServicesSection>
   </div>
-  <div>
+  <div class="">
     <ProjectsSection></ProjectsSection>
   </div>
-  <div>
+  <div class="">
     <StatsSection></StatsSection>
   </div>
-  <div>
+  <div class="">
     <ContactSection></ContactSection>
   </div>
 </template>
