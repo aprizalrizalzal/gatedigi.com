@@ -29,8 +29,8 @@ import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 .whatsapp-container {
   background-color: #00000075; /* White background */
   color: #ffffff; /* Default text color */
-  right: 1.5rem;
-  bottom: 1.5rem;
+  right: 2.5rem;
+  bottom: 2.5rem;
   position: fixed;
   padding-inline: 16px;
   padding-block: 10px;
