@@ -48,6 +48,80 @@
             </div>
           </div>
         </div>
+        <div class="row mx-auto">
+          <div class="col mt-3 mb-5">
+            <div class="wrapper">
+              <div class="profile-1">
+                <div class="overlay">
+                  <div class="about d-flex flex-column">
+                    <h4>Aprizal</h4>
+                    <span>Software Developer</span>
+                  </div>
+                  <ul class="social-icons">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-3 mb-5">
+            <div class="wrapper">
+              <div class="profile-2">
+                <div class="overlay">
+                  <div class="about d-flex flex-column">
+                    <h4>Aprizal</h4>
+                    <span>Software Developer</span>
+                  </div>
+                  <ul class="social-icons">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-3 mb-5">
+            <div class="wrapper">
+              <div class="profile-3">
+                <div class="overlay">
+                  <div class="about d-flex flex-column">
+                    <h4>Aprizal</h4>
+                    <span>Software Developer</span>
+                  </div>
+                  <ul class="social-icons">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-3 mb-5">
+            <div class="wrapper">
+              <div class="profile-4">
+                <div class="overlay">
+                  <div class="about d-flex flex-column">
+                    <h4>Aprizal</h4>
+                    <span>Software Developer</span>
+                  </div>
+                  <ul class="social-icons">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -82,5 +156,126 @@
 .info-item:hover i {
   background: #000000;
   color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.profile-1 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.profile-2 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.profile-3 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.profile-4 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.profile-5 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.profile-6 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: url('../../assets/images/profile/aprizal.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  opacity: 0;
+  transition: all 1s;
+}
+.profile-1:hover .overlay {
+  opacity: 1;
+}
+.profile-2:hover .overlay {
+  opacity: 1;
+}
+.profile-3:hover .overlay {
+  opacity: 1;
+}
+.profile-4:hover .overlay {
+  opacity: 1;
+}
+.profile-5:hover .overlay {
+  opacity: 1;
+}
+.profile-6:hover .overlay {
+  opacity: 1;
+}
+.social-icons {
+  display: flex;
+  list-style: none;
+  bottom: 10px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  left: 22px;
+}
+.social-icons li {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: all 1s;
+}
+.social-icons li:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.overlay .about {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 40%;
+  color: #ffffff;
+  flex: column;
 }
 </style>
