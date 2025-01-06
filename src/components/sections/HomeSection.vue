@@ -28,7 +28,14 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12"></div>
+        <div class="col-md-8 mx-auto">
+          <div class="row">
+            <div class="col-7 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
+            <div class="col-5 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
+            <div class="col-5 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
+            <div class="col-7 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

@@ -36,7 +36,6 @@ const items = ref([
     category: 'web-app',
     background: 'bg-dark text-white',
     image: webAppImage_1,
-    title: 'Web App',
     subtitle: 'Sistem Informasi Service',
     button: 'btn-outline-light',
   },
@@ -44,7 +43,6 @@ const items = ref([
     category: 'mobile-app',
     background: 'bg-light text-black',
     image: mobileAppImage_1,
-    title: 'Mobile App',
     subtitle: 'Sistem Informasi Inventaris',
     button: 'btn-outline-dark',
   },
@@ -52,7 +50,6 @@ const items = ref([
     category: 'logo-design',
     background: 'bg-dark text-white',
     image: logoDesignImage_1,
-    title: 'Logo Design',
     subtitle: 'Infinity',
     button: 'btn-outline-light',
   },
@@ -60,7 +57,6 @@ const items = ref([
     category: 'logo-design',
     background: 'bg-dark text-white',
     image: logoDesignImage_2,
-    title: 'Logo Design',
     subtitle: 'sipncups',
     button: 'btn-outline-light',
   },
@@ -68,7 +64,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_1,
-    title: 'Web Design (UI/UX)',
     subtitle: 'PRIME Hydration Drink by Logan Paul x KSI',
     button: 'btn-outline-dark',
   },
@@ -76,7 +71,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_2,
-    title: 'Web Design (UI/UX)',
     subtitle: 'AIVOR - Gaming Gear Ecommerce',
     button: 'btn-outline-dark',
   },
@@ -84,7 +78,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_3,
-    title: 'Web Design (UI/UX)',
     subtitle: 'SPP-WEB',
     button: 'btn-outline-dark',
   },
@@ -92,7 +85,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_4,
-    title: 'Web Design (UI/UX)',
     subtitle: 'Ambatukam.id',
     button: 'btn-outline-dark',
   },
@@ -100,7 +92,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_5,
-    title: 'Web Design (UI/UX)',
     subtitle: 'Build.Up',
     button: 'btn-outline-dark',
   },
@@ -108,7 +99,6 @@ const items = ref([
     category: 'web-design',
     background: 'bg-light text-black',
     image: webDesignImage_6,
-    title: 'Web Design (UI/UX)',
     subtitle: 'FANTECH-INDONESIA',
     button: 'btn-outline-dark',
   },
@@ -116,7 +106,6 @@ const items = ref([
     category: 'mobile-design',
     background: 'bg-dark text-white',
     image: mobileDesignImage_1,
-    title: 'Mobile Design (UI/UX)',
     subtitle: 'TOURest - Travel',
     button: 'btn-outline-light',
   },
@@ -124,7 +113,6 @@ const items = ref([
     category: 'mobile-design',
     background: 'bg-dark text-white',
     image: mobileDesignImage_2,
-    title: 'Mobile Design (UI/UX)',
     subtitle: 'PAIRS - Sneakers E-Commerce',
     button: 'btn-outline-light',
   },
@@ -132,7 +120,6 @@ const items = ref([
     category: 'mobile-design',
     background: 'bg-dark text-white',
     image: mobileDesignImage_3,
-    title: 'Mobile Design (UI/UX)',
     subtitle: 'Gaming Gear Shop',
     button: 'btn-outline-light',
   },
@@ -140,11 +127,17 @@ const items = ref([
     category: 'mobile-design',
     background: 'bg-dark text-white',
     image: mobileDesignImage_4,
-    title: 'Mobile Design (UI/UX)',
     subtitle: 'Food Recipe',
     button: 'btn-outline-light',
   },
 ])
+
+const reverseFormat = (slug) => {
+  return slug
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
 
 let isotopeInstance = null
 
@@ -200,16 +193,16 @@ const filterItems = (filter) => {
               class="grid-item"
             >
               <div class="card border-0 rounded-0 bg-transparent shadow">
-                <img :src="item.image" class="img-fluid" alt="Sistem Informasi Sevice" />
+                <img :src="item.image" class="img-fluid" :alt="item.subtitle" />
                 <div class="card-body text-center py-3" :class="item.background">
-                  <h2 class="fs-5">{{ item.title }}</h2>
+                  <h2 class="fs-5">{{ reverseFormat(item.category) }}</h2>
                   <p class="fs-6 mb-2">{{ item.subtitle }}</p>
                   <div class="d-flex justify-content-center">
                     <a
                       :href="item.image"
                       class="glightbox btn rounded px-2.5 border-0 me-2"
                       :class="item.button"
-                      data-gallery="gallery-web-app"
+                      :data-gallery="item.category"
                       ><i class="bi bi-zoom-in"></i>
                     </a>
                     <a
