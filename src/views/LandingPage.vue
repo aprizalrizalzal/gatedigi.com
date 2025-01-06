@@ -27,8 +27,8 @@ import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 </template>
 <style scoped>
 .whatsapp-container {
-  background-color: #00000075; /* White background */
-  color: #ffffff; /* Default text color */
+  background-color: #00000075;
+  color: #ffffff;
   right: 2.5rem;
   bottom: 2.5rem;
   position: fixed;
@@ -44,14 +44,13 @@ import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 
 .whatsapp-container:hover {
   transform: scale(1.2);
-  background-color: #25d365; /* WhatsApp green */
+  background-color: #25d365;
   color: white;
 }
 
-/* Hover effect for the icon */
 .whatsapp-container:hover i {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
-  color: white; /* Icon color when hovered */
+  color: white;
 }
 </style>

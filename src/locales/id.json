@@ -77,12 +77,20 @@
   "contact": {
     "title": "Kontak",
     "description": "Hubungi kami untuk memulai perjalanan transformasi digital Anda atau untuk pertanyaan lebih lanjut.",
-    "form": {
-      "name": "Nama",
-      "email": "Email",
-      "message": "Pesan",
-      "button": "Kirim Pesan"
-    }
+    "lists": [
+      {
+        "title": "Alamat",
+        "description": "Kota Mataram, Nusa Tenggara Barat 83116, Indonesia"
+      },
+      {
+        "title": "Hubungi",
+        "description": "+62 819 1796 5302"
+      },
+      {
+        "title": "Email",
+        "description": "gatedigi69@gmail.com"
+      }
+    ]
   },
   "footer": {
     "copyright": "©2024 GateDigi. Semua Hak Dilindungi.",

@@ -77,12 +77,20 @@
   "contact": {
     "title": "Contact",
     "description": "Contact us to start your digital transformation journey or for any inquiries.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "button": "Send Message"
-    }
+    "lists": [
+      {
+        "title": "Address",
+        "description": "Mataram City, West Nusa Tenggara 83116, Indonesia"
+      },
+      {
+        "title": "Contact",
+        "description": "+62 819 1796 5302"
+      },
+      {
+        "title": "Email",
+        "description": "gatedigi69@gmail.com"
+      }
+    ]
   },
   "footer": {
     "copyright": "©2024 GateDigi. All Rights Reserved.",

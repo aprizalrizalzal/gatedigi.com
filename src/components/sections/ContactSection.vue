@@ -13,15 +13,15 @@
             {{ $t('contact.description') }}
           </p>
         </div>
-        <div class="col-md-12 mb-5 py-3">
+        <div class="col-md-12 my-5">
           <div class="bg-white shadow rounded-1" data-aos="fade-down">
-            <div class="row p-4">
+            <div class="row px-4 pb-4 g-4">
               <div class="col-lg-4">
                 <div class="info-item d-flex align-items-center">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                    <h3>Alamat</h3>
-                    <p>Kota Mataram, Nusa Tenggara Barat 83116, Indonesia</p>
+                    <h3>{{ $t('contact.lists[0].title') }}</h3>
+                    <p>{{ $t('contact.lists[0].description') }}</p>
                   </div>
                 </div>
               </div>
@@ -30,8 +30,8 @@
                 <div class="info-item d-flex align-items-center">
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
-                    <h3>Hubungi</h3>
-                    <p>+62 819 1796 5302</p>
+                    <h3>{{ $t('contact.lists[1].title') }}</h3>
+                    <p>{{ $t('contact.lists[1].description') }}</p>
                   </div>
                 </div>
               </div>
@@ -40,8 +40,8 @@
                 <div class="info-item d-flex align-items-center">
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                    <h3>Email</h3>
-                    <p>gatedigi69@gmail.com</p>
+                    <h3>{{ $t('contact.lists[2].title') }}</h3>
+                    <p>{{ $t('contact.lists[2].description') }}</p>
                   </div>
                 </div>
               </div>
