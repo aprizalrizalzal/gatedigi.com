@@ -48,74 +48,165 @@
             </div>
           </div>
         </div>
-        <div class="row mx-auto">
-          <div class="col mt-3 mb-5">
+        <div class="row mx-auto mb-5" data-aos="zoom-in-up">
+          <div class="col py-3">
             <div class="wrapper">
               <div class="profile-1">
                 <div class="overlay">
                   <div class="about d-flex flex-column">
-                    <h4>Aprizal</h4>
-                    <span>Software Developer</span>
+                    <h4>Reza Ardiansyah, S.T</h4>
+                    <span>Project Manager</span>
                   </div>
                   <ul class="social-icons">
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                    <li><i class="bi bi-twitter"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
+                    <li>
+                      <a
+                        href="https://wa.me/6281235362691"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-whatsapp text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/reza.ardiansyah3"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-facebook text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/ardiansyahreza.id"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-instagram text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-threads text-white"></i></a>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mt-3 mb-5">
+          <div class="col py-3">
             <div class="wrapper">
               <div class="profile-2">
                 <div class="overlay">
                   <div class="about d-flex flex-column">
-                    <h4>Aprizal</h4>
-                    <span>Software Developer</span>
+                    <h4>M. Faturzikril Ullum, S.Kom</h4>
+                    <span>Business Development Specialist</span>
                   </div>
                   <ul class="social-icons">
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                    <li><i class="bi bi-twitter"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
+                    <li>
+                      <a
+                        href="https://wa.me/6281917965302"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-whatsapp text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer"
+                        ><i class="bi bi-facebook text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/faturriskyulum"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-instagram text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-threads text-white"></i></a>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mt-3 mb-5">
+          <div class="col py-3">
             <div class="wrapper">
               <div class="profile-3">
                 <div class="overlay">
                   <div class="about d-flex flex-column">
-                    <h4>Aprizal</h4>
-                    <span>Software Developer</span>
+                    <h4>Hapif Hartedi</h4>
+                    <span>UI/UX & Conten Creator</span>
                   </div>
                   <ul class="social-icons">
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                    <li><i class="bi bi-twitter"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
+                    <li>
+                      <a
+                        href="https://wa.me/6283831473606"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-whatsapp text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/hapif.hartedi007"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-facebook text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/iamhapif"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-instagram text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-threads text-white"></i></a>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mt-3 mb-5">
+          <div class="col py-3">
             <div class="wrapper">
               <div class="profile-4">
                 <div class="overlay">
                   <div class="about d-flex flex-column">
-                    <h4>Aprizal</h4>
-                    <span>Software Developer</span>
+                    <h4>M. Aprizal Hardi, S.Kom</h4>
+                    <span>Full-Stack Developer</span>
                   </div>
                   <ul class="social-icons">
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                    <li><i class="bi bi-twitter"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
+                    <li>
+                      <a
+                        href="https://wa.me/6287765889202"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-whatsapp text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/zalrizalaprizal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-facebook text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/zal_rizal_aprizal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="bi bi-instagram text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.threads.net/@zal_rizal_aprizal"
+                        ><i class="bi bi-threads text-white"></i
+                      ></a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -166,54 +257,36 @@
 }
 .profile-1 {
   position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
+  width: 340px;
+  height: 400px;
+  background: url('../../assets/images/profile/test.jpg');
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 .profile-2 {
   position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
+  width: 340px;
+  height: 400px;
+  background: url('../../assets/images/profile/test.jpg');
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 .profile-3 {
   position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
+  width: 340px;
+  height: 400px;
+  background: url('../../assets/images/profile/test.jpg');
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 .profile-4 {
   position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-.profile-5 {
-  position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-.profile-6 {
-  position: relative;
-  width: 300px;
-  height: 350px;
-  background: url('../../assets/images/profile/aprizal.png');
+  width: 340px;
+  height: 400px;
+  background: url('../../assets/images/profile/test.jpg');
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -238,12 +311,6 @@
 .profile-4:hover .overlay {
   opacity: 1;
 }
-.profile-5:hover .overlay {
-  opacity: 1;
-}
-.profile-6:hover .overlay {
-  opacity: 1;
-}
 .social-icons {
   display: flex;
   list-style: none;
@@ -251,7 +318,7 @@
   position: absolute;
   text-align: center;
   justify-content: center;
-  left: 22px;
+  left: 34px;
 }
 .social-icons li {
   width: 25px;
@@ -266,7 +333,7 @@
   transition: all 1s;
 }
 .social-icons li:hover {
-  background: #ffffff;
+  background: #ffffff90;
   color: #000000;
 }
 .overlay .about {

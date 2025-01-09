@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import webDesignImage_1 from '@/assets/images/projects/design/prime-hydration-drink-by-logan-paul-x-ksi-landing-page-design.jpg'
+import webDesignImage_2 from '@/assets/images/projects/design/aivor-gaming-gear-e-commerce.jpg'
+import mobileDesignImage_1 from '@/assets/images/projects/design/tourest-travel-app-design.jpg'
+import mobileDesignImage_2 from '@/assets/images/projects/design/pairs-mobile-sneakers-e-commerce-app.jpg'
+</script>
 <template>
   <section id="home" data-translation-key="header.home">
     <div class="container">
@@ -28,15 +33,32 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 mx-auto">
-          <div class="row">
-            <div class="col-7 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
-            <div class="col-5 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
-            <div class="col-5 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
-            <div class="col-7 bg-white card rounded-0 border-0"><img src="" alt="" /></div>
+        <div class="col-md-10 mx-auto d-none d-md-block" data-aos="fade-up">
+          <div class="d-flex flex-wrap justify-content-center gap-1">
+            <img :src="webDesignImage_2" alt="" class="img-custom img-large" />
+            <img :src="webDesignImage_1" alt="" class="img-custom img-medium" />
+          </div>
+          <div class="d-flex flex-wrap justify-content-center gap-1 mt-1">
+            <img :src="mobileDesignImage_2" alt="" class="img-custom img-medium" />
+            <img :src="mobileDesignImage_1" alt="" class="img-custom img-large" />
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+<style scoped>
+.img-custom {
+  object-fit: cover;
+}
+
+.img-large {
+  width: 500px;
+  height: 200px;
+}
+
+.img-medium {
+  width: 250px;
+  height: 200px;
+}
+</style>
